@@ -72,7 +72,7 @@ baekjoon/
    │  └─ ...
 ```
 
-## 🧩 KB Header Plugin
+## 🧩 SSAFY Header Plugin
 
 코드 작성 시 아래 SSAFY 헤더를 사용합니다.
 
