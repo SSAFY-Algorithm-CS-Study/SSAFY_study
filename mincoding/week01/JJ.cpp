@@ -1,10 +1,10 @@
 /********************************************************************************/
 /* File Name         : JJ.cpp                                                   */
 /* By                : SSAFY                                   SSSSS   WW   WW  */
-/* Algorithm         :                                         SS      WW   WW  */
-/* Time Complexity   :                                         SSSSS   WW W WW  */
-/* Space Complexity  :                                            SS   WWW WWW  */
-/* Note              :                                         SSSSS    WW WW   */
+/* Algorithm         : 시뮬레이션                              SS      WW   WW  */
+/* Time Complexity   : O(N^2)                                  SSSSS   WW W WW  */
+/* Space Complexity  : O(N^2)                                     SS   WWW WWW  */
+/* Note              : 배열 회전 빈출이므로 공식 외우기        SSSSS    WW WW   */
 /*                                                                              */
 /********************************************************************************/
 
@@ -82,6 +82,7 @@ int main(void)
   for(int i = 0; i < N; i++){
     for(int j = 0; j < N; j++){
       cout << v[i][j] << ' ';
+      
     }
     cout << '\n';
   }
