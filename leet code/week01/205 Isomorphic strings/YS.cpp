@@ -4,9 +4,12 @@
 /* Algorithm         : MAP                                     SS      WW   WW  */
 /* Time Complexity   : O(N Log N)                              SSSSS   WW W WW  */
 /* Space Complexity  : O(N)                                       SS   WWW WWW  */
-/* Note              : 두개의 map을 사용해서 양방향 대응관…    SSSSS    WW WW   */
+/* Note              : 두개의 map을 사용해서 양방향 대응관계   SSSSS    WW WW   */
 /*                                                                              */
 /********************************************************************************/
+#include <string>
+#include <map>
+using namespace std;
 
 class Solution {
 public:

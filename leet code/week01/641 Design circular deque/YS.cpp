@@ -68,6 +68,6 @@ public:
     
     bool isFull() {
         if(dq.size() == maxSize)return true; // dq가 maxSize만큼 찼으면 true 반환
-        return false; // dq가 다 차있지 않으면 false 반환 
+        return false; // dq가 다 차있지 않으면 // dq가 비어있으면 false 반환 false 반환 
     }
 };

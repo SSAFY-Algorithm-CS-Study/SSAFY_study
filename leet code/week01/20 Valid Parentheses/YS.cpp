@@ -23,10 +23,10 @@ public:
                     v.pop_back(); // 닫히는 괄호이고 스택에 맞는 여는 괄호가 있으면 pop
                 }
                 else{
-                    return false; // 맞는 괄호가 없으면 pop
+                    return false; // 맞는 괄호가 없으면 false 반환
                 }
             }
         }
-        return v.empty(); // 스택이 비어있으면 true
+        return v.empty(); // 스택이 비어있으면 true 반환
     }
 };
