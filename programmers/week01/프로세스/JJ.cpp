@@ -2,8 +2,8 @@
 /* File Name         : JJ.cpp                                                   */
 /* By                : SSAFY                                   SSSSS   WW   WW  */
 /* Algorithm         : 큐, 우선순위큐                          SS      WW   WW  */
-/* Time Complexity   :                                         SSSSS   WW W WW  */
-/* Space Complexity  :                                            SS   WWW WWW  */
+/* Time Complexity   : O(N^2)                                  SSSSS   WW W WW  */
+/* Space Complexity  : O(N)                                       SS   WWW WWW  */
 /* Note              :                                         SSSSS    WW WW   */
 /*                                                                              */
 /********************************************************************************/
@@ -56,7 +56,6 @@ int solution(vector<int> priorities, int location) {
         q.pop();
         q.push({tempJob, tempIdx});
       }
-
     }
     return answer;
 }

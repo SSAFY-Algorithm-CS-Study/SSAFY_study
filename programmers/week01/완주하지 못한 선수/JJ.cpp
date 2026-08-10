@@ -2,8 +2,8 @@
 /* File Name         : JJ.cpp                                                   */
 /* By                : SSAFY                                   SSSSS   WW   WW  */
 /* Algorithm         : 해시(맵)                                SS      WW   WW  */
-/* Time Complexity   : O(P)                                    SSSSS   WW W WW  */
-/* Space Complexity  : O(P)                                       SS   WWW WWW  */
+/* Time Complexity   : O(N)                                    SSSSS   WW W WW  */
+/* Space Complexity  : O(N)                                       SS   WWW WWW  */
 /* Note              :                                         SSSSS    WW WW   */
 /*                                                                              */
 /********************************************************************************/
