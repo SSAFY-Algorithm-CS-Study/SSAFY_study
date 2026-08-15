@@ -37,7 +37,6 @@ public:
             {
                 current = current->right;
             }
-            // 3. !
             else
             {
                 return current; // 왼쪽 오른쪽으로 갈라졌거나 내가 목표물(문제 조건에 내가 조상 되는 것 가능) 중 하나라면 -> 노드 리턴

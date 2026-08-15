@@ -2,8 +2,8 @@
 /* File Name         : Hyun sik.cpp                                             */
 /* By                : SSAFY                                   SSSSS   WW   WW  */
 /* Algorithm         : 재귀                                    SS      WW   WW  */
-/* Time Complexity   : O()                                     SSSSS   WW W WW  */
-/* Space Complexity  : O()                                        SS   WWW WWW  */
+/* Time Complexity   : O(2^n)                                  SSSSS   WW W WW  */
+/* Space Complexity  : O(n)                                       SS   WWW WWW  */
 /* Note              : programmers : 하노이의 탑               SSSSS    WW WW   */
 /*                                                                              */
 /********************************************************************************/
