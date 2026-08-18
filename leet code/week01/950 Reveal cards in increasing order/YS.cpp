@@ -30,7 +30,9 @@ public:
             }
         }
         vector<int> answer(deck.size()); // 답이 들어갈 vector
+        vector<int> answer(deck.size()); // 답이 들어갈 vector
         for(int i = 0;i<deck.size();i++){
+            answer[index[i]] = deck[i]; // 인덱스 순서대로 answer에 저장
             answer[index[i]] = deck[i]; // 인덱스 순서대로 answer에 저장
         }
         return answer;
