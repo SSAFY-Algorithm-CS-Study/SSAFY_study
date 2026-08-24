@@ -12,7 +12,7 @@
 using namespace std;
 
 int solution(vector<vector<int> > maps)
-{
+{ 
     int y, x, dist;
     int n = maps.size()-1; // y 목적지
     int m = maps[0].size()-1; // x 목적지
