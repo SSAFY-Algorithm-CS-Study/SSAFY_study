@@ -21,7 +21,7 @@ public:
         int left = 0, right = height.size() - 1;
 
         while(left != right){
-            //둘 중 낮은 높이를 가진 막대가 직사강형의 높이가 됨
+            //둘 중 낮은 높이를 가진 막대가 직사각형의 높이가 됨
             int h = min(height[left], height[right]);
             //직사각형 높이를 계산 후 Max 갱신
             Max = max(Max, (right - left) * h); 

@@ -27,17 +27,10 @@ class Solution {
 public:
     int rob(vector<int>& nums) {
         int n = nums.size();
-
-        //털 집이 하나밖에 없을 땐 첫 집만 털기 (없으면 nums[i-1]에서 에러 발생)
-        if(n == 1)
-            return nums[0]; 
-
-        vector<int>dp(n+1, 0);
+        vector<int>dp(n+1);
 
         dp[0] = 0; //집을 하나도 털지 않았을 땐 0원임
-
-        if(n >= 1)
-            dp[1] = nums[0]; //nums[0] (첫 번째 집 기준 무조건 터는 것이 최대의 돈을 가질 수 있음)
+        dp[1] = nums[0]; //첫 번째 집 기준 무조건 터는 것이 최대의 돈을 가질 수 있음
 
         for(int i = 2; i <= n; i++) //두 번째 집부터는 비교 시작
             dp[i] = max(dp[i-1], dp[i-2] + nums[i-1]); //i번째 집 훔치지 않음 / 훔침 비교 후 최댓값 갱신
